@@ -1,6 +1,6 @@
 (footprint "SMCE-2520" (version 20210228) (generator pcbnew) (layer "F.Cu")
-  (tedit 60BD31F3)
-  (fp_text reference "REF**" (at 0 2.7 unlocked) (layer "F.SilkS")
+  (tedit 60D3A05C)
+  (fp_text reference "REF**" (at 0 2.7 unlocked) (layer "User.1")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 49b3df4b-2690-49b8-8689-67f11cd37b42)
   )

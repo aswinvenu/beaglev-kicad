@@ -1,0 +1,19 @@
+15/6/2021
+
+* Lot of the internal nets were shorted. ** Serious Issue **
+
+One main issue was ground was shorting to couple of power rails in the 
+PMIC Schematics. A thorough inspection revealed them.
+
+The other issue was all the derived power symbols were connected to the same net. For example VSYS_5V8 used in the PMIC is shorted with LDO_3V3. ( So many of them). Realized all the power supply symbols were created from the same parent symbol. Even though you can change the name of the symbol the net property remains as the parents. So edited all the power symbols.
+
+W23 ball in the VIC100 chip was missing. Added that.
+
+Debug port added.   
+
+Some of the DNP component footprints have added to the pcb. Placement is in progress
+
+Changed the permission of the /usr/share/kicad-nightly/modules to edit the default footprints
+
+        * Changed the REF** value to user1 layer. This may get changed back to Silktop depending on the space availability on the board.
+
